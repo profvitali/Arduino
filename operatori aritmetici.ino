@@ -1,3 +1,27 @@
+// in questa sezione vi spiegherò come utilizzare gli operatori aritmetici più utilizzati
+
+//dichiarazione delle variabili variabili
+int operando1, operando2, risultato; 
+
+//assegnazione dei valori alle variabili
+operando1 = 10;
+operando2 = 3;
+
+//addizione
+risultato = operando1 + operando2;
+//sottrazione
+risultato = operando1 - operando2;
+//moltiplicazione
+risultato = operando1 * operando2;
+//divisione
+risultato = operando1 / operando2;
+
+
+
+
+
+
+
 int operando1, operando2;
 bool risultato;
 
