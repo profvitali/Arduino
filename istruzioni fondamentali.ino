@@ -44,9 +44,42 @@ risultato = operando1 / operando2;  //divisione
 risultato = operando2++;  //la variabile viene incremendata di 1
 risultato = operando2--;  //la variabile viene decremendata di 1
 
+__________________________________________________________________________
+OPERATORI RELAZIONALI
+
+int operando1 = 65;
+int operando2 = 34;
+bool risultato;
+
+risultato = operando1 == operando2; //operando1 è uguale a operando2?
+risultato = operando1 != operando2; //operando1 è diverso a operando2?
+risultato = operando1 >= operando2; //operando1 è maggiore o uguale a operando2?
+risultato = operando1 <= operando2; //operando1 è minore o uguale a operando2?
+risultato = operando1 > operando2; //operando1 è maggiore di operando2?
+risultato = operando1 < operando2; //operando1 è minore di operando2?
+
+__________________________________________________________________________
+OPERATORI BOOLEANI
+bool op1 = true;
+bool op2 = true;
+bool op3 = false;
+bool risultato;
+
+risultato = op1 && op2;      // && corrsiponde a AND
+risultato = op1 && op3;
+risultato = op1 || op2;      // || corrsiponde a OR
+risultato = op1 || op3;
+risultato = !op1;            // ! corrsiponde a NOT
+risultato = !op3;
+risultato = op1 && !op3;
+risultato = op1 || !op3;
+
+
 
 --> SEI ORA PRONTO PER ESERCITAZIONE 1
-https://github.com/profvitali/Arduino/blob/main/operatori%20matematici.ino
+
+
+
 
 
 
