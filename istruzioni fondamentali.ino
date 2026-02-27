@@ -74,6 +74,85 @@ risultato = !op3;
 risultato = op1 && !op3;
 risultato = op1 || !op3;
 
+__________________________________________________________________________
+OPERATORI LOGICI
+
+IF
+      int miaVariabile = 7;
+      
+      if(miaVariabile > 5)                                    //condizione da controllare
+      {
+          Serial.println("miaVariabile è maggiore di 5");      //istruzione se la condizione è verificata
+      }
+
+IF-ELSE
+      if(miaVariabile > 5)
+       {
+            Serial.println("miaVariabile è maggiore di 5");      //istruzione se la condizione è verificata
+       }
+      else
+       {
+            Serial.println("miaVariabile non è maggiore di 5");      //istruzione alternativa
+       }
+
+IF-IF ELSE-ELSE
+      if(miaVariabile >= 0 && miaVariabile <= 5)
+      {
+          //codice eseguito se miaVariabile assume un valore compreso tra 0 e 5
+      }
+      else if(miaVariabile > 5 && miaVariabile <= 10)
+      {
+          //codice eseguito se miaVariabile assume un valore compreso tra 6 e 10
+      }
+      else
+      {
+          //codice eseguito in tutti gli altri casi - ovvero <0 e >10
+      }
+
+SWITCH
+      switch(miaVariabile)                                    //condizione
+      {
+          case 0:
+              Serial.println("Hai premuto il tasto 0");      //condizione 0
+              break;
+          case 1:
+              Serial.println("Hai premuto il tasto 1");
+              break;
+          case 2:
+              Serial.println("Hai premuto il tasto 2");
+              break;
+          case 3:
+              Serial.println("Hai premuto il tasto 3");
+              break;
+          case [4…5…6…7…8]:
+              
+          case 9:
+              Serial.println("Hai premuto il tasto 9");
+              break;
+          default:
+              Serial.println("Tasto non riconosciuto");
+              break;
+      }
+
+WHILE
+      while(<condizione>)
+      {//codice da eseguire all'interno del ciclo
+      }
+
+      esempio:
+            int indice = 1;
+            while(indice <= 10)
+            {
+                Serial.print("Iterazione numero "); //stampiamo sul monitor seriale il numero di iterazioni
+                Serial.println(indice);
+                ++indice; //incrementiamo la variabile di un'unità
+            }
+FOR
+      for(<inizializzazione indice>; <condizione>; <incremento>)    //Dove <inizializzazione indice> contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while; <condizione> è la condizione che deve essere vera per eseguire il corpo del ciclo e <incremento> è la condizione di incremento dell’indice.
+      {    //codice eseguito ad ogni iterazione
+      }
+
+      
 
 
 --> SEI ORA PRONTO PER ESERCITAZIONE 1
