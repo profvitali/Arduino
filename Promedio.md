@@ -1,25 +1,25 @@
-# Promedio
+# Titolo principale
 
-Calcule el promedio de una lista de números utilizando la media.
+descrizione
 
-## Aplicaciones
+## Sottotitolo livello 1
 
-Calcular la media de una lista de números es una de las maneras más comunes de
-determinar el promedio de esos números.
+Bla bla.
 
-Calcular una media sería útil en estas situaciones:
+elenco puntato:
 
-- Determinar la puntuación media de todos los jugadores de un nivel de videojuego.
-- Encontrar la nota promedio para las pruebas que un estudiante tomó este semestre.
-- Determinar el tamaño medio de todos los archivos de un directorio/carpeta.
+- punto 
+- punto
+- punto
 
-## Pasos
-
+elenco numerato:
 1. Introduzca una lista de números.
 2. Calcule la suma de todos los números de la lista.
 3. Cuente los números de la lista.
 4. Divida la suma por el recuento total de números de la lista.
 5. Rentabilidad media.
+6. 
+
 
 ## Ejemplo
 
