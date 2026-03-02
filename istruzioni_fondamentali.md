@@ -129,6 +129,9 @@ IF-IF ELSE-ELSE
           //codice eseguito in tutti gli altri casi - ovvero <0 e >10
       }
 ```
+![operatori_logici Image](operatori_logici.png)
+
+
 SWITCH
 ```
       switch(miaVariabile)                                    //condizione
