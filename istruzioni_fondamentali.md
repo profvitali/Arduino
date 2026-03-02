@@ -129,7 +129,7 @@ IF-IF ELSE-ELSE
           //codice eseguito in tutti gli altri casi - ovvero <0 e >10
       }
 ```
-![operatori_logici Image](operatori_logici.png)
+![Example Image](https://github.com/profvitali/Arduino/blob/main/immagini/operatori_logici.png)
 
 
 SWITCH
