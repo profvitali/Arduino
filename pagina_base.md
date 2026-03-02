@@ -36,6 +36,15 @@ anche combinato **asterisks and _underscores_**.
 
 sbarrato con le ondine ~~Scratch this.~~
 
+#per le immagini
+Inline-style: 
+![alt text](https://www.altrasoluzione.com/blog/siti-per-scaricare-immagini-gratis-legalmente)
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://www.altrasoluzione.com/blog/siti-per-scaricare-immagini-gratis-legalmente
+
 ## Video en YouTube
 
 - [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
