@@ -27,6 +27,14 @@ altrimenti su più linee
 suma = 160
 conteo = 7
 ```
+## emphasi
+corsivo con *asterischi* o _underscores_.
+
+grassetto **asterisks** or __underscores__.
+
+anche combinato **asterisks and _underscores_**.
+
+sbarrato con le ondine ~~Scratch this.~~
 
 ## Video en YouTube
 
