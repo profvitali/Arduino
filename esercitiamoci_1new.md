@@ -1,54 +1,43 @@
-# Titolo principale
+# Esercitiamoci 1
 
-descrizione
+## Parte A
+Eseguire lo sketch riportato di seguito ed eseguire le seguenti operazioni:
 
-## Sottotitolo livello 1
+- addizione
+- sottrazione
+- moltiplicazione 
+- divisione
+- addizione di una costante chiamata “K”
+- elevare alla potenza di grado 3
+- realizzare una espressione a piacimento che usa tutti i quattro operatori contemporaneamente
 
-Bla bla.
+aggiuntivi
+- definendo le variabili "base" e "altezza" si calcoli l'area di un triangolo
+- definendo "densità" "altezza" e "g" si calcoli la pressione agente sul fondo di un recipiente
 
-elenco puntato:
-
-- punto 
-- punto
-- punto
-
-elenco numerato:
-1. Introduzca una lista de números.
-2. Calcule la suma de todos los números de la lista.
-3. Cuente los números de la lista.
-
-
-## codice
-
-Codice in linea `[2, 4, 6, 8, 20, 50, 70] `, vamos a calcular el promedio `suma = 160`.
-
-altrimenti su più linee
+SKECTCH:
 ```
-suma = 160
-conteo = 7
+void setup() {
+  Serial.begin(9600);                   //impostiamo il baudrate della porta seriale
+  int operando1, operando2, risultato;  //dichiarazione delle variabili
+  //assegnazione
+  operando1 = 5;
+  operando2 = 8;
+   //addizione
+  risultato = operando1 + operando2;
+  Serial.print("Addizione: ");           //stampa a monitor la scritta tra gli apici
+  Serial.println(risultato);             //stampa a monitor sulla stessa riga
+}
+
+void loop() {   // qui potete lasciare vuoto  
+}
 ```
-## emphasi
-corsivo con *asterischi* o _underscores_.
 
-grassetto **asterisks** or __underscores__.
+## Parte B
 
-anche combinato **asterisks and _underscores_**.
-
-sbarrato con le ondine ~~Scratch this.~~
-
-#per le immagini
-Inline-style: 
-![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
-
-## Video en YouTube
-
-- [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
-
-## Otros
-
-- [Media en Wikipedia](https://en.wikipedia.org/wiki/Mean)
+utilizzando quanto fatto sopra, programmare i sequenti confronti:
+- operando1 è uguale a operando2?
+- operando1 è diverso da operando2?
+- operando1 è maggiore o uguale a operando2?
+- operando1 è minore a operando2?
+- definendo "densità" "altezza" e "g" e "pressione_critica" si calcoli se la pressione agente sul fondo di un recipiente risulta inferiore a quella critica
