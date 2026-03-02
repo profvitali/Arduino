@@ -38,12 +38,12 @@ sbarrato con le ondine ~~Scratch this.~~
 
 #per le immagini
 Inline-style: 
-![alt text](https://www.altrasoluzione.com/blog/siti-per-scaricare-immagini-gratis-legalmente)
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://www.altrasoluzione.com/blog/siti-per-scaricare-immagini-gratis-legalmente
+[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
 
 ## Video en YouTube
 
