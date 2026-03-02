@@ -174,6 +174,13 @@ esempio:
             }
 ```
 FOR
+
+Dove `<inizializzazione indice>` contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while
+
+`<condizione>` è la condizione che deve essere vera per eseguire il corpo del ciclo 
+
+`<incremento>` è la condizione di incremento dell’indice.
+    
 ```
       for(<inizializzazione indice>; <condizione>; <incremento>)    //Dove <inizializzazione indice> contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while; <condizione> è la condizione che deve essere vera per eseguire il corpo del ciclo e <incremento> è la condizione di incremento dell’indice.
       {    //codice eseguito ad ogni iterazione
