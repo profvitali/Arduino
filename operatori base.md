@@ -32,7 +32,7 @@ boolean mi_trovo_in_laboratorio = true //boolean usato quando i valori sono 0-1 
 char lettera = 'A'   // Il tipo char contiene un singolo carattere alfanumerico (lettera o numero), memorizzato sotto forma di numero a 8 bit, secondo la codifica ASCII.
 ```
 
-##***Esercitati tu:***
+## **Esercitati tu:**
       crea la variabile/costante ed associa il relativo valore:
             - costante di gravità
             - numero di nepero
