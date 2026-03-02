@@ -1,54 +1,40 @@
-# Titolo principale
+# Operatori base
 
-descrizione
+qui trovi:
+  - variabili e tipologie di dato
+  - operatori
+  - controllori di flusso
 
-## Sottotitolo livello 1
-
-Bla bla.
-
-elenco puntato:
-
-- punto 
-- punto
-- punto
-
-elenco numerato:
-1. Introduzca una lista de números.
-2. Calcule la suma de todos los números de la lista.
-3. Cuente los números de la lista.
-
-
-## codice
-
-Codice in linea `[2, 4, 6, 8, 20, 50, 70] `, vamos a calcular el promedio `suma = 160`.
-
-altrimenti su più linee
+Qualunque programma utilizzeremo farà uso di variabili per immagazzinare le informazioni da gestire. Le variabili non sono nient’altro che porzioni di memoria in cui andremo a conservare tali informazioni al fine poterle utilizzare, richiamare, modificare…
+La sintassi della variabile è la seguente:
 ```
-suma = 160
-conteo = 7
+<tipo_di_dato> <nome_variabile> = <valore>
 ```
-## emphasi
-corsivo con *asterischi* o _underscores_.
+Le costanti invece rimangono invariate durante l’esecuzione del programma;
+```
+const <tipo_di_dato> <NOME_COSTANTE> = <valore>
+#define <NOME_COSTANTE> <valore>
+```
 
-grassetto **asterisks** or __underscores__.
+Vediamo alcuni esempi:
 
-anche combinato **asterisks and _underscores_**.
+***Costanti:***
+```
+const int numero_dita_mano = 5      //int quando i numeri sono di tipo intero
+const float pigreco = 3.1415926      //float usato quando il numero ha la virgola, ATENZIONE VA USATO IL PUNTO!!!
+#define pippo 8
+```
 
-sbarrato con le ondine ~~Scratch this.~~
+***Variabili***
+```
+int età = 16
+boolean mi_trovo_in_laboratorio = true //boolean usato quando i valori sono 0-1 oppure true-false oppure HIGH-LOW
+char lettera = 'A'   // Il tipo char contiene un singolo carattere alfanumerico (lettera o numero), memorizzato sotto forma di numero a 8 bit, secondo la codifica ASCII.
+```
 
-#per le immagini
-Inline-style: 
-![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
-
-## Video en YouTube
-
-- [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
-
-## Otros
-
-- [Media en Wikipedia](https://en.wikipedia.org/wiki/Mean)
+##***Esercitati tu:***
+      crea la variabile/costante ed associa il relativo valore:
+            - costante di gravità
+            - numero di nepero
+            - numero di alunni in laboratorio
+            - ora è mattina --> vero
