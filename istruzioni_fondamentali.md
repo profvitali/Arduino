@@ -5,7 +5,7 @@ qui trovi:
   - Operatori
   - Operatori Logici
 
-### variabili, costanti e tipologie di dato:
+# variabili, costanti e tipologie di dato:
 
 Qualunque programma utilizzeremo farà uso di variabili per immagazzinare le informazioni da gestire. Le variabili non sono nient’altro che porzioni di memoria in cui andremo a conservare tali informazioni al fine poterle utilizzare, richiamare, modificare…
 La sintassi della variabile è la seguente:
@@ -42,7 +42,7 @@ crea la variabile/costante ed associa il relativo valore:
   - ora è mattina --> vero
 ___
 
-### Operatori
+# Operatori
 
 ## Operatori Aritmetici
 Per prima cosa è necessario dichiarare le variabili con cui si opera:
@@ -91,8 +91,8 @@ risultato = !op3;
 risultato = op1 && !op3;
 risultato = op1 || !op3;
 ```
-### Operatori Logici
-IF
+# Operatori Logici
+**IF**
 ```
       int miaVariabile = 7;
       
@@ -102,7 +102,7 @@ IF
       }
 ```
 
-IF-ELSE
+**IF-ELSE**
 ```
       if(miaVariabile > 5)
        {
@@ -114,7 +114,7 @@ IF-ELSE
        }
 ```
 
-IF-IF ELSE-ELSE
+**IF-IF ELSE-ELSE**
 ```
       if(miaVariabile >= 0 && miaVariabile <= 5)
       {
@@ -132,7 +132,7 @@ IF-IF ELSE-ELSE
 ![Example Image](https://github.com/profvitali/Arduino/blob/main/immagini/operatori_logici.png)
 
 
-SWITCH
+**SWITCH**
 ```
       switch(miaVariabile)                                    //condizione
       {
@@ -159,14 +159,14 @@ SWITCH
       }
 ```
 
-WHILE
+**WHILE**
 
 ```
       while(<condizione>)
       {//codice da eseguire all'interno del ciclo
       }
 ```
-esempio:
+_esempio:_
 ```
             int indice = 1;
             while(indice <= 10)
@@ -176,7 +176,7 @@ esempio:
                 ++indice; //incrementiamo la variabile di un'unità
             }
 ```
-FOR
+**FOR**
 
 Dove `<inizializzazione indice>` contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while
 
