@@ -4,10 +4,11 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
 1. [istruzioni fondamentali](https://github.com/profvitali/Arduino/blob/main/istruzioni_fondamentali.md)
 
-    1.1 [esercitazione 1 ](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_1new.md)
-3. Software e Hardware
-   
-   3.1 comandare un output digitale
+    1.1 [esercitiamoci 1](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_1.md)
 
-   3.2 leggere un input digitale
+2. Software e Hardware
+   
+   2.1 comandare un output digitale
+
+   2.2 leggere un input digitale
 
