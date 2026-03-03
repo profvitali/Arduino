@@ -4,7 +4,13 @@ Realizzare gli sketch che permettono di:
 
 2.1 Realizzare il codice che scrive i numeri da 0 a 20 e li stampa uno ad uno sul monitor
 
+> [!TIP]
+> Prova a semplificare il codice utilizzando la funzione for.
+
 2.2 Leggere in input dal monitor seriale 3 numeri, calcolare la somma e indicare se la somma è maggiore di 12.
+
+> [!NOTE]
+> Information the user should notice even if skimming.
 
 2.3 Definita una variabile si calcoli la potenza di questa elevata alla 23
 
