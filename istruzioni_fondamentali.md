@@ -1,11 +1,11 @@
 # Operatori base
 
 qui trovi:
-  - variabili e tipologie di dato
-  - operatori
-  - controllori di flusso
+  - Variabili e tipologie di dato
+  - Operatori
+  - Operatori Logici
 
-## variabili, costanti e tipologie di dato:
+### variabili, costanti e tipologie di dato:
 
 Qualunque programma utilizzeremo farà uso di variabili per immagazzinare le informazioni da gestire. Le variabili non sono nient’altro che porzioni di memoria in cui andremo a conservare tali informazioni al fine poterle utilizzare, richiamare, modificare…
 La sintassi della variabile è la seguente:
@@ -42,9 +42,9 @@ crea la variabile/costante ed associa il relativo valore:
   - ora è mattina --> vero
 ___
 
-## operatori
+### Operatori
 
-### Operatori Aritmetici
+## Operatori Aritmetici
 Per prima cosa è necessario dichiarare le variabili con cui si opera:
 ```
 int operando1, operando2, risultato; //dichiarazione delle variabili variabili
@@ -61,7 +61,7 @@ risultato = operando2++;  //la variabile viene incremendata di 1
 risultato = operando2--;  //la variabile viene decremendata di 1
 ```
 
-### OPERATORI RELAZIONALI
+## Operatori Relazionali
 ```
 int operando1 = 65;
 int operando2 = 34;
@@ -75,7 +75,7 @@ risultato = operando1 > operando2; //operando1 è maggiore di operando2?
 risultato = operando1 < operando2; //operando1 è minore di operando2?
 ```
 
-### OPERATORI BOOLEANI
+## Operatori Booleani
 ```
 bool op1 = true;
 bool op2 = true;
@@ -91,7 +91,7 @@ risultato = !op3;
 risultato = op1 && !op3;
 risultato = op1 || !op3;
 ```
-### OPERATORI LOGICI
+### Operatori Logici
 IF
 ```
       int miaVariabile = 7;
@@ -185,7 +185,7 @@ Dove `<inizializzazione indice>` contiene la dichiarazione e inizializzazione di
 `<incremento>` è la condizione di incremento dell’indice.
     
 ```
-      for(<inizializzazione indice>; <condizione>; <incremento>)    //Dove <inizializzazione indice> contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while; <condizione> è la condizione che deve essere vera per eseguire il corpo del ciclo e <incremento> è la condizione di incremento dell’indice.
+      for(<inizializzazione indice>; <condizione>; <incremento>)    /
       {    //codice eseguito ad ogni iterazione
       }
 ```
