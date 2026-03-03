@@ -7,10 +7,9 @@ Realizzare gli sketch che permettono di:
 > [!TIP]
 > Il tuo obiettivo deve essere scrivere il codice più semplice possibile. Prova a semplificare il codice utilizzando la funzione for o while.
 
-### 2.2 Si realizzi un algoritmo che stampa i primi 10 numeri pari. Disegnare il diagramma di flusso e programmare lo sketch.
+### 2.2 Definita una variabile si calcoli la potenza di questa elevata alla 23. Si mostri poi a monitor il risultato.
 
-### 2.3 Definita una variabile si calcoli la potenza di questa elevata alla 23. Si mostri poi a monitor il risultato.
-
+### 2.3 Si realizzi un algoritmo che stampa i primi 10 numeri pari. Disegnare il diagramma di flusso e programmare lo sketch.
 
 ### 2.4 Leggere in input dal monitor seriale 3 numeri, calcolare la somma e indicare se la somma è maggiore di 12.
 
@@ -24,7 +23,9 @@ Realizzare gli sketch che permettono di:
 > }
 > ```
 
-### 2.5 
+### 2.5 Realizzare un algoritmo che, dato un numero intero _n_ richiesto in input, dopo aver verificato che _n_ è positivo, visualizza in sequenza i numeri da _n_ fino a 1
+
+### 2.6 Realizzare un algoritmo che, dato un numero intero _n_ richiesto in input, dopo aver verificato che _n_ è positivo, visualizza in sequenza i numeri da 1 fino a _n_
 
 
 ___
