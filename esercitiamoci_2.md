@@ -2,18 +2,23 @@
 
 Realizzare gli sketch che permettono di: 
 
-2.1 Realizzare il codice che scrive i numeri da 0 a 20 e li stampa uno ad uno sul monitor
+### 2.1 Realizzare il codice che scrive i numeri da 0 a 20 e li stampa uno ad uno sul monitor
 
 > [!TIP]
-> Prova a semplificare il codice utilizzando la funzione for.
+> Il tuo obiettivo deve essere scrivere il codice più semplice possibile. Prova a semplificare il codice utilizzando la funzione for o while.
 
-2.2 Leggere in input dal monitor seriale 3 numeri, calcolare la somma e indicare se la somma è maggiore di 12.
+### 2.2 Si realizzi un algoritmo che stampa i primi 10 numeri pari. Disegnare il diagramma di flusso e programmare lo sketch.
+
+### 2.3 Definita una variabile si calcoli la potenza di questa elevata alla 23. Si mostri poi a monitor il risultato.
+
+
+### 2.4 Leggere in input dal monitor seriale 3 numeri, calcolare la somma e indicare se la somma è maggiore di 12.
 
 > [!NOTE]
 > Information the user should notice even if skimming.
 
-2.3 Definita una variabile si calcoli la potenza di questa elevata alla 23
 
+___
 ## Se sei un vero pro: 
 
 Si deve automatizzare il sistema di riscaldamento di un laboratorio metrologico nel quale deve esser tenuta una temperatura costante per certificare le misurazioni. 
