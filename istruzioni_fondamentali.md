@@ -189,4 +189,12 @@ Dove `<inizializzazione indice>` contiene la dichiarazione e inizializzazione di
       {    //codice eseguito ad ogni iterazione
       }
 ```
+_esempio: sommare il numero 3 per N volte_
+```
+  int n = 10; // Numero di iterazioni
+  int somma = 0;
+    for(int i = 0; i < n; i++) {
+      somma =somma + 3; // Esempio: somma 3 per 10 volte
+    }
+```
 
