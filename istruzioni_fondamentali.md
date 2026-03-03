@@ -160,13 +160,13 @@ risultato = op1 || !op3;
 ```
 
 **WHILE**
-
+La/le istruzione/i vengono ripetute più volte finché la condizione non risulta falsa.
 ```
       while(<condizione>)
       {//codice da eseguire all'interno del ciclo
       }
 ```
-_esempio:_
+_esempio: si realizzi il codice che stampa a video i numeri da 1 a 10_
 ```
             int indice = 1;
             while(indice <= 10)
