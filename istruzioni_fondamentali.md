@@ -1,4 +1,4 @@
-# Operatori base
+# Istruzioni Fondamentali
 
 qui trovi:
   - Variabili e tipologie di dato
@@ -22,16 +22,16 @@ Vediamo alcuni esempi:
 
 ***Costanti:***
 ```
-const int numero_dita_mano = 5      //int quando i numeri sono di tipo intero
-const float pigreco = 3.1415926      //float usato quando il numero ha la virgola, ATENZIONE VA USATO IL PUNTO!!!
-#define pippo 8
+const int numero_dita_mano = 5;      //int quando i numeri sono di tipo intero
+const float pigreco = 3.1415926;      //float usato quando il numero ha la virgola, ATENZIONE VA USATO IL PUNTO!!!
+#define pippo 8;
 ```
 
 ***Variabili***
 ```
-int età = 16
-boolean mi_trovo_in_laboratorio = true //boolean usato quando i valori sono 0-1 oppure true-false oppure HIGH-LOW
-char lettera = 'A'   // Il tipo char contiene un singolo carattere alfanumerico (lettera o numero), memorizzato sotto forma di numero a 8 bit, secondo la codifica ASCII.
+int età = 16;
+boolean mi_trovo_in_laboratorio = true; //boolean usato quando i valori sono 0-1 oppure true-false oppure HIGH-LOW
+char lettera = 'A';   // Il tipo char contiene un singolo carattere alfanumerico (lettera o numero), memorizzato sotto forma di numero a 8 bit, secondo la codifica ASCII.
 ```
 
 ## **Esercitati tu:**
