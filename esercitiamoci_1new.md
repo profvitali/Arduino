@@ -35,7 +35,7 @@ void loop() {   // qui potete lasciare vuoto
 
 ## Parte B
 
-utilizzando quanto fatto sopra, programmare i sequenti confronti:
+implementando quanto fatto sopra, programmare i sequenti confronti:
 - operando1 è uguale a operando2?
 - operando1 è diverso da operando2?
 - operando1 è maggiore o uguale a operando2?
