@@ -15,7 +15,14 @@ Realizzare gli sketch che permettono di:
 ### 2.4 Leggere in input dal monitor seriale 3 numeri, calcolare la somma e indicare se la somma è maggiore di 12.
 
 > [!NOTE]
-> Information the user should notice even if skimming.
+>  Per leggere input da monitor seriale:
+> ```
+> if(Serial.available())
+>  { 
+>  variabile=Serial.parseInt();	//per leggere numeri interi
+>  variabile=Serial.read(); 		//per loeggere input ma in ASCII!!
+> }
+> ```
 
 ### 2.5 
 
