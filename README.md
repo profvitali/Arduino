@@ -6,7 +6,9 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
     1.1 [esercitiamoci 1](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_1.md)
 
-2. Software e Hardware
+    1.2 [esercitiamoci 2](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_2.md)
+
+3. Software e Hardware
    
    2.1 comandare un output digitale
 
