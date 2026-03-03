@@ -35,7 +35,20 @@ void loop() {   // qui potete lasciare vuoto
 
 > [!NOTE]
 > Per interagire con il monitor seriale utilizzeremo:
+> 
 > `Serial.begin(9600);` è una funzione fondamentale in Arduino IDE che avvia la comunicazione seriale tra la scheda e un computer o altro dispositivo, impostando la velocità in baud rate (solitamente 9600 o 115200). Si inserisce nel void setup(). Il baud rate determina la velocità con cui i dati vengono trasmessi e ricevuti (normalmente bit al secondo). Se il trasmettitore e il ricevitore non sono impostati sullo stesso baud rate, la comunicazione verrà interrotta. Dispositivi diversi supportano baud rate diversi e impostare lo stesso baud rate su ricevitore e trasmettitore consentirà loro di comunicare correttamente.
+>
+> `Serial.print(data)` Invia dati al monitor seriale senza andare a capo.
+> 
+> `Serial.println(data)` Invia dati al monitor seriale e va a capo automaticamente.
+>
+> `Serial.available()` Restituisce il numero di byte disponibili per la lettura nel buffer seriale.
+>
+> `Serial.read()` Legge il primo byte di dati in arrivo.
+>
+> `Serial.parseInt()` Cerca il prossimo numero intero nella stringa seriale.
+>
+> `Serial.flush()` Svuota il buffer di ricezione (in attesa che i dati vengano trasmessi). 
 
 ## Parte B
 
