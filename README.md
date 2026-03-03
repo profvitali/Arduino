@@ -4,4 +4,6 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
 1. [istruzioni fondamentali](https://github.com/profvitali/Arduino/blob/main/istruzioni_fondamentali.md)
 
-[esercitazione 1 ](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_1.ino)
+    1.1 [esercitazione 1 ](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_1new.md)
+
+
