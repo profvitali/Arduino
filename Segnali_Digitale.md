@@ -72,3 +72,8 @@ void loop() {
   }  
 }
 ```
+
+### Esercizi:
+1. realizzare il programma che: quando il pulsante viene premuto il LED rimane acceso
+
+2. realizzare il programma che mi permette di accendere e spegnere il LED con due pulsanti distinti
