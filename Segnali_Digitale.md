@@ -1,4 +1,13 @@
-# Comandare un Output Digitale
+# Comandare Segnali Digitali
+
+> [!TIP]
+> Le istruzioni fondamentali per il comando di segnali digitali sono:
+>```
+> pinMode() // impostare un pin come input o come output, solitamente posto nel setup
+> digitalWrite() // impostare un pin digitale a HIGH o LOW
+> digitalRead() // legge lo stato di un pin digitale
+> ```
+
 
 ## Accendere un LED
 
