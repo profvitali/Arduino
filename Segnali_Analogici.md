@@ -25,5 +25,6 @@ void loop() {
 }
 ```
 
-### Esercizi:
-1. Realizzare il programma che: 
+### Crepuscolare:
+1. Realizzare l'algoritmo che mi permette di accendere in automatico una luce quando c'è buio. Si definisca, a piacimento, un valore di soglia al di sotto del quale la luce dovrà accendersi.
+2. Realizzare l'algoritmo di un "crepuscolare adattivo". Avendo a disposizione 4 LED regolare l'accensione di questi in rapporto alla luce. _e.g_ buio completo si accendono 4 LED, buio al 50% accendo 2 LED...
