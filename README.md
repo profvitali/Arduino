@@ -12,5 +12,5 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
    
    2.1 comandare segnali digitali [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Digitali.md)
    
-   2.2 leggere un input digitale
+   2.2 comandare segnali analogici [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Analogici.md)
 
