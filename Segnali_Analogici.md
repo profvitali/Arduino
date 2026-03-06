@@ -2,7 +2,7 @@
 
 > [!TIP]
 > Le istruzioni fondamentali per il comando di segnali digitali sono:
->```c 
+>```
 > pinMode() // impostare un pin come input o come output, solitamente posto nel setup
 > analogRead()  // legge un pin analogico, usato per input
 > analogWrite()  //scrive in valore analogico, usato per output
