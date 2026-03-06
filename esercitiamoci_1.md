@@ -16,7 +16,7 @@ aggiuntivi
 - definendo "densità" "altezza" e "g" si calcoli la pressione agente sul fondo di un recipiente
 
 SKECTCH:
-```
+```c
 void setup() {
   Serial.begin(9600);                   //impostiamo il baudrate della porta seriale
   int operando1, operando2, risultato;  //dichiarazione delle variabili
