@@ -2,7 +2,7 @@
 
 > [!TIP]
 > Le istruzioni fondamentali per il comando di segnali digitali sono:
->```
+>```c 
 > pinMode() // impostare un pin come input o come output, solitamente posto nel setup
 > digitalWrite() // impostare un pin digitale a HIGH o LOW, utilizzato per comandare output
 > digitalRead() // legge lo stato di un pin digitale, utilizzato per rilevare input
