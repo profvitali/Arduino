@@ -1,4 +1,4 @@
-# Comandare Segnali Digitali
+# Segnali Digitali
 
 > [!TIP]
 > Le istruzioni fondamentali per il comando di segnali digitali sono:
