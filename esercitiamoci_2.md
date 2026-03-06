@@ -15,7 +15,7 @@ Realizzare gli sketch che permettono di:
 
 > [!NOTE]
 >  Per leggere input da monitor seriale:
-> ```
+> ```c
 > if(Serial.available())
 >  { 
 >  variabile=Serial.parseInt();	//per leggere numeri interi
