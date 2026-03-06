@@ -13,7 +13,7 @@
 
 In questo esercizio vedremo come comandare l'accensione di un LED. Per accenderlo dovremo scrivere nel monitor seriale la lettera _"a"_, mentre invece per spegnerlo dovremo premere la lettera _"b"_.
 
-```
+```c
 void setup() {
   Serial.begin(9600);
   pinMode(12, OUTPUT);
@@ -40,13 +40,13 @@ La funzione per utilizzare il buzzer è `tone(pinbuzzer,frequenza,durata);`
 Se non specifico la durata il buzzer suona fino alla chiamata della funzione `noTone()`
 
 _Esempio:_
-```
+```c
 tone(buzzPin,1000,2000);
 ```
  
 NOTA: La funzione tone attiva il buzzer per il tempo indicato ma passa immediatamente alla riga di comando successiva per cui è necessario impostare un delay pari al tempo di buzz
 _Esempio:_
-```
+```c
 tone(buzzPin,1000,2000);       // suono frequenza 1000 e durata 2sec
 delay(2000);
 ```
@@ -55,7 +55,7 @@ delay(2000);
 
 In questo esercizio vedremo come utilizzare un pulsante per accendere un LED. Quando il pulsante viene premuto il LED dovrà accendersi. Essendo un pulsante, nel momento in cui rilasceremo la pressione il LED si spegnerà.
 
-```
+```c
 int ledPin = 12;  //Il led è connesso al pin 12
 //#define ledPin 12 //alternativamente
 int pulsante = 7;  //Il pulsante è connesso al pin 7
@@ -85,3 +85,5 @@ void loop() {
 2. Realizzare il programma che mi permette di accendere e spegnere il LED con due pulsanti distinti. Il pulsante di Accensione deve essere collegato al pin 8, il pulsante di spegnimento deve essere collegato al pin 9
 3. Realizzare il programma che permette di contare il numero di _"click"_ eseguiti da un pulsante
 4. Realizzare il programma che mi permette di modifare il valore di una variabile utilizzando due pulsanti, uno la farà incrementare, l'altro decrementare
+5. Realizzare l'algoritmo di funzionamento di un **telegrafo**. Inserendo una parola nel monitor seriale questa deve essere trasformata in un segnale morse che fa suonare un buzzer.
+Si raccomanda 
