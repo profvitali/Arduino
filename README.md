@@ -15,6 +15,7 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
    2.2 comandare segnali analogici [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Analogici.md)
 
 3. Mechatronics projects
+
    3.1 Servomotore
    
    3.2 Sensore di distanza ad ultrasuoni
