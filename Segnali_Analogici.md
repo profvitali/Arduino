@@ -9,7 +9,7 @@
 > ```
 
 
-## Utilizzo di un fotoresistore
+## INPUT - Utilizzo di un fotoresistore
 
 In questo esercizio utilizzeremo il sensore per rilevare l'intensità luminosa della stanza e ne leggeremo il valore sul monitor.
 
@@ -25,6 +25,30 @@ void loop() {
 }
 ```
 
+## OUTPUT - Luminosità variabile di un LED
+```c
+int ledPin = 9; // Pin PWM
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Aumenta luminosità
+  for (int i = 0; i <= 255; i++) {
+    analogWrite(ledPin, i);
+    delay(10); // Ritardo per l'effetto dissolvenza
+  }
+  // Diminuisce luminosità
+  for (int i = 255; i >= 0; i--) {
+    analogWrite(ledPin, i);
+    delay(10);
+  }
+}
+```
+
 ### Crepuscolare:
 1. Realizzare l'algoritmo che mi permette di accendere in automatico una luce quando c'è buio. Si definisca, a piacimento, un valore di soglia al di sotto del quale la luce dovrà accendersi.
 2. Realizzare l'algoritmo di un "crepuscolare adattivo". Avendo a disposizione 4 LED regolare l'accensione di questi in rapporto alla luce. _e.g_ buio completo si accendono 4 LED, buio al 50% accendo 2 LED...
+3. Realizzare l'algoritmo di un "crepuscolare adattivo analogico". Si regoli l'intensità luminosa di un LED in relazione alla quantità luminosa della stanza.  _e.g_ buio completo LED 100%, buio al 50% LED acceso al 50%...
+
