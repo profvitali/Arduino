@@ -11,6 +11,8 @@
 
 ## Accendere un LED
 
+In questo esercizio vedremo come comandare l'accensione di un LED. Per accenderlo dovremo scrivere nel monitor seriale la lettera _"a"_, mentre invece per spegnerlo dovremo premere la lettera _"b"_.
+
 ```
 void setup() {
   Serial.begin(9600);
@@ -51,6 +53,8 @@ delay(2000);
 
 ## Utilizzare un pulsante
 
+In questo esercizio vedremo come utilizzare un pulsante per accendere un LED. Quando il pulsante viene premuto il LED dovrà accendersi. Essendo un pulsante, nel momento in cui rilasceremo la pressione il LED si spegnerà.
+
 ```
 int ledPin = 12;  //Il led è connesso al pin 12
 //#define ledPin 12 //alternativamente
@@ -72,6 +76,9 @@ void loop() {
   }  
 }
 ```
+
+> [!IMPORTANT]
+> La corrente non arriva al LED perchè è collegata in serie al pulsante, ora il funzionamento dei componenti dipende dal programma che scrivo.
 
 ### Esercizi:
 1. Realizzare il programma che: quando il pulsante viene premuto il LED rimane acceso
