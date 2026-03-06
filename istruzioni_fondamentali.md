@@ -9,11 +9,11 @@ qui trovi:
 
 Qualunque programma utilizzeremo farà uso di variabili per immagazzinare le informazioni da gestire. Le variabili non sono nient’altro che porzioni di memoria in cui andremo a conservare tali informazioni al fine poterle utilizzare, richiamare, modificare…
 La sintassi della variabile è la seguente:
-```
+```c
 <tipo_di_dato> <nome_variabile> = <valore>
 ```
 Le costanti invece rimangono invariate durante l’esecuzione del programma;
-```
+```c
 const <tipo_di_dato> <NOME_COSTANTE> = <valore>
 #define <NOME_COSTANTE> <valore>
 ```
@@ -21,14 +21,14 @@ const <tipo_di_dato> <NOME_COSTANTE> = <valore>
 Vediamo alcuni esempi:
 
 ***Costanti:***
-```
+```c
 const int numero_dita_mano = 5;      //int quando i numeri sono di tipo intero
 const float pigreco = 3.1415926;      //float usato quando il numero ha la virgola, ATENZIONE VA USATO IL PUNTO!!!
 #define pippo 8;
 ```
 
 ***Variabili***
-```
+```c
 int età = 16;
 boolean mi_trovo_in_laboratorio = true; //boolean usato quando i valori sono 0-1 oppure true-false oppure HIGH-LOW
 char lettera = 'A';   // Il tipo char contiene un singolo carattere alfanumerico (lettera o numero), memorizzato sotto forma di numero a 8 bit, secondo la codifica ASCII.
@@ -46,7 +46,7 @@ ___
 
 ## Operatori Aritmetici
 Per prima cosa è necessario dichiarare le variabili con cui si opera:
-```
+```c
 int operando1, operando2, risultato; //dichiarazione delle variabili variabili
 operando1 = 10; //assegnazione del valore
 operando2 = 3;
@@ -62,7 +62,7 @@ risultato = operando2--;  //la variabile viene decremendata di 1
 ```
 
 ## Operatori Relazionali
-```
+```c
 int operando1 = 65;
 int operando2 = 34;
 bool risultato;
@@ -76,7 +76,7 @@ risultato = operando1 < operando2; //operando1 è minore di operando2?
 ```
 
 ## Operatori Booleani
-```
+```c
 bool op1 = true;
 bool op2 = true;
 bool op3 = false;
@@ -93,7 +93,7 @@ risultato = op1 || !op3;
 ```
 # Operatori Logici
 **IF**
-```
+```c
       int miaVariabile = 7;
       
       if(miaVariabile > 5)                                    //condizione da controllare
@@ -103,7 +103,7 @@ risultato = op1 || !op3;
 ```
 
 **IF-ELSE**
-```
+```c
       if(miaVariabile > 5)
        {
             Serial.println("miaVariabile è maggiore di 5");      //istruzione se la condizione è verificata
@@ -115,7 +115,7 @@ risultato = op1 || !op3;
 ```
 
 **IF-IF ELSE-ELSE**
-```
+```c
       if(miaVariabile >= 0 && miaVariabile <= 5)
       {
           //codice eseguito se miaVariabile assume un valore compreso tra 0 e 5
@@ -133,7 +133,7 @@ risultato = op1 || !op3;
 
 
 **SWITCH**
-```
+```c
       switch(miaVariabile)                                    //condizione
       {
           case 0:
@@ -161,13 +161,13 @@ risultato = op1 || !op3;
 
 **WHILE**
 La/le istruzione/i vengono ripetute più volte finché la condizione non risulta falsa.
-```
+```c
       while(<condizione>)
       {//codice da eseguire all'interno del ciclo
       }
 ```
 _esempio: si realizzi il codice che stampa a video i numeri da 1 a 10_
-```
+```c
             int indice = 1;
             while(indice <= 10)
             {
@@ -178,19 +178,19 @@ _esempio: si realizzi il codice che stampa a video i numeri da 1 a 10_
 ```
 **FOR**
 
-Dove `<inizializzazione indice>` contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while
+Dove ` <inizializzazione indice>` contiene la dichiarazione e inizializzazione di una variabile indice analoga all’esempio fatto per il ciclo while
 
 `<condizione>` è la condizione che deve essere vera per eseguire il corpo del ciclo 
 
 `<incremento>` è la condizione di incremento dell’indice.
     
-```
+```c
       for(<inizializzazione indice>; <condizione>; <incremento>)    /
       {    //codice eseguito ad ogni iterazione
       }
 ```
 _esempio: sommare il numero 3 per N volte_
-```
+```c
   int n = 10; // Numero di iterazioni
   int somma = 0;
     for(int i = 0; i < n; i++) {
