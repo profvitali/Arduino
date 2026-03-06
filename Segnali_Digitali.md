@@ -78,7 +78,7 @@ void loop() {
 ```
 
 > [!IMPORTANT]
-> La corrente non arriva al LED perchè è collegata in serie al pulsante, ora il funzionamento dei componenti dipende dal programma che scrivo.
+> La corrente non arriva al LED perchè è collegato in serie al pulsante, ora il funzionamento dei componenti dipende dal programma che scrivo.
 
 ### Esercizi:
 1. Realizzare il programma che: quando il pulsante viene premuto il LED rimane acceso
