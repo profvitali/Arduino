@@ -8,9 +8,13 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
     1.2 esercitiamoci 2 [LINK QUI](https://github.com/profvitali/Arduino/blob/main/esercitiamoci_2.md)
 
-3. Software e Hardware
+2. Software e Hardware
    
    2.1 comandare segnali digitali [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Digitali.md)
    
    2.2 comandare segnali analogici [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Analogici.md)
 
+3. Mechatronics projects
+   3.1 Servomotore
+   3.2 Sensore di distanza ad ultrasuoni
+   3.3 Sensore di parcheggio
