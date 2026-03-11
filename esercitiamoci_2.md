@@ -19,7 +19,7 @@ Realizzare gli sketch che permettono di:
 > if(Serial.available())
 >  { 
 >  variabile=Serial.parseInt();	//per leggere numeri interi
->  variabile=Serial.read(); 		//per loeggere input ma in ASCII!!
+>  variabile=Serial.read(); 		//per leggere input ma in ASCII!!
 > }
 > ```
 
