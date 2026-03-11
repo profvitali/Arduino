@@ -85,5 +85,21 @@ void loop() {
 2. Realizzare il programma che mi permette di accendere e spegnere il LED con due pulsanti distinti. Il pulsante di Accensione deve essere collegato al pin 8, il pulsante di spegnimento deve essere collegato al pin 9
 3. Realizzare il programma che permette di contare il numero di _"click"_ eseguiti da un pulsante
 4. Realizzare il programma che mi permette di modifare il valore di una variabile utilizzando due pulsanti, uno la farà incrementare, l'altro decrementare
-5. Realizzare l'algoritmo di funzionamento di un **telegrafo**. Inserendo una parola nel monitor seriale questa deve essere trasformata in un segnale morse che fa suonare un buzzer.
-Si raccomanda 
+5. Realizzare l'algoritmo di funzionamento di un **telegrafo**. Inserendo una parola nel monitor seriale questa deve essere trasformata in un segnale morse che fa suonare un buzzer. I segnali morse devono rispettare la convenzione internazione:
+   - la linea ha la durata di tre punti
+   - la pausa tra due parti di una stessa lettera è uguale ad un punto
+   - la pausa tra due lettere è uguale a tre punti
+   - la pausa tra due parola è di 5 punti
+Si consiglia di ottimizzare il codice utilizzando funzioni del tipo:
+```c
+void punto() {
+  digitalWrite(ledpin, HIGH);
+  delay(tempopunto);
+  digitalWrite(ledpin, LOW);
+}
+
+switch (comando){
+    case'a':      
+      punto();  linea();
+      break;
+```
