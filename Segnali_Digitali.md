@@ -33,6 +33,7 @@ void loop(){
   }
 }
 ```
+> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/cQv7oMFtrAO-ingenious-bojo)
 
 ## Buzzer
 La funzione per utilizzare il buzzer è `tone(pinbuzzer,frequenza,durata);`
@@ -79,6 +80,8 @@ void loop() {
 
 > [!IMPORTANT]
 > La corrente non arriva al LED perchè è collegato in serie al pulsante, ora il funzionamento dei componenti dipende dal programma che scrivo.
+
+> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/i8SOcVCigFk-accendere-spegnere-led-con-1-pulsante)
 
 ### Esercizi:
 1. Realizzare il programma che: quando il pulsante viene premuto il LED rimane acceso
