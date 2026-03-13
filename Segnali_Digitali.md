@@ -93,6 +93,7 @@ void loop() {
    - la pausa tra due parti di una stessa lettera è uguale ad un punto
    - la pausa tra due lettere è uguale a tre punti
    - la pausa tra due parola è di 5 punti
+
 Si consiglia di ottimizzare il codice utilizzando funzioni del tipo:
 ```c
 void punto() {
