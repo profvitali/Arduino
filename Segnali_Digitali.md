@@ -81,7 +81,7 @@ void loop() {
 > [!IMPORTANT]
 > La corrente non arriva al LED perchè è collegato in serie al pulsante, ora il funzionamento dei componenti dipende dal programma che scrivo.
 
-> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/e7rhyk3CCol-accendere-led-con-pulsante?sharecode=AwwYHQZKsyd6z34QBENXoAePY1S5GD8uU_DSW6mpuLE)
+> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/e7rhyk3CCol-accendere-led-con-pulsante)
 
 ### Esercizi:
 1. Realizzare il programma che: quando il pulsante viene premuto il LED rimane acceso
