@@ -33,7 +33,7 @@ void loop(){
   }
 }
 ```
-> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/cQv7oMFtrAO-comandare-led-da-tastiera?sharecode=xuZj4rLwFWGezjVwQcM4Ip9_hk9uqz6l7tgwdINWaR4)
+> come realizzare il cablaggio --> [LINK QUI](https://www.tinkercad.com/things/cQv7oMFtrAO-comandare-led-da-tastiera)
 
 ## Buzzer
 La funzione per utilizzare il buzzer è `tone(pinbuzzer,frequenza,durata);`
