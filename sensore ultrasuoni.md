@@ -1,40 +1,41 @@
-# Servomotore
-
+# Sensore ad ultrasuoni
 
 ```c
-#include <Servo.h> //Inserire la libreria Servo
-Servo Servo1; //Il nome del servomotore è Servo1, può assumere una posizione tra 0 e 180°
-int pos;
-
+// Programma per rilevare la distanza di un oggetto con sensore di prossimità ad ultrasuoni
+const int pinTrigger = 9;
+const int pinEcho    = 10;
+ 
 void setup() {
-  Servo1.attach (9); //Il Servo1 ha il jumper del segnale collegato al pin digitale #9
+  pinMode(pinTrigger, OUTPUT);
+  pinMode(pinEcho, INPUT);
+  Serial.begin(9600);
+  Serial.print( "Sensore Ultrasuoni: ");
 }
-
+ 
 void loop() {
-  //Imposto la posizione a cui si deve spostare il Servo1
-  // primo ciclo con step di 30° scritti manualmente
-  delay (500);
-  Servo1.write (0);
-  delay (500);
-  Servo1.write (30);
-  delay (500);
-  Servo1.write (60);
-  delay (500);
-  Servo1.write (90);
-  delay (500);
-  Servo1.write (60);
-  delay (500);
-  Servo1.write (30);
-
-  // secondo ciclo con step di 1° utilizzando ciclo FOR
-  for (pos = 0; pos <= 180; pos += 1) { // da 0 a 180 gradi
-    Servo1.write(pos);              // Modifica la posizione del servo
-    delay(15);                       // Ritardo introdotto prima di cambiare posizione
+  // imposta l'uscita del trigger LOW
+  digitalWrite(pinTrigger, LOW);
+  // imposta l'uscita del trigger HIGH per 10 microsecondi
+  digitalWrite(pinTrigger, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(pinTrigger, LOW);
+ 
+  // calcolo del tempo attraverso il pin di echo
+  long durata = pulseIn(pinEcho, HIGH);
+  long distanza = durata/58.31;   //motivo di ciò spiegato sopra
+ 
+  Serial.print("distanza: ");
+  // dopo 38ms è fuori dalla portata del sensore
+  if( durata > 23324 ){
+    Serial.println("Fuori portata");
   }
-  for (pos = 180; pos >= 0; pos -= 1) { // da 180 a 0 gradi
-    Servo1.write(pos);              // Modifica la posizione del servo
-    delay(15);                       // Ritardo introdotto prima di cambiare posizione
+  else{
+    Serial.print(distanza);
+    Serial.println(" cm");
   }
+   
+  // Aspetta 1000 millisecondi prima di generare l'impulso successivo
+  delay(1000);
 }
 ```
 
