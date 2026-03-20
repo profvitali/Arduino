@@ -1,69 +1,42 @@
 # Titolo principale
 
-descrizione
 
-## Sottotitolo livello 1
+```c
+#include <Servo.h> //Inserire la libreria Servo
+Servo Servo1; //Il nome del servomotore è Servo1, può assumere una posizione tra 0 e 180°
+int pos;
 
-Bla bla.
+void setup() {
+  Servo1.attach (9); //Il Servo1 ha il jumper del segnale collegato al pin digitale #9
+}
 
-elenco puntato:
+void loop() {
+  //Imposto la posizione a cui si deve spostare il Servo1
+  // primo ciclo con step di 30° scritti manualmente
+  delay (500);
+  Servo1.write (0);
+  delay (500);
+  Servo1.write (30);
+  delay (500);
+  Servo1.write (60);
+  delay (500);
+  Servo1.write (90);
+  delay (500);
+  Servo1.write (60);
+  delay (500);
+  Servo1.write (30);
 
-- punto 
-- punto
-- punto
+  // secondo ciclo con step di 1° utilizzando ciclo FOR
+  for (pos = 0; pos <= 180; pos += 1) { // da 0 a 180 gradi
+    Servo1.write(pos);              // Modifica la posizione del servo
+    delay(15);                       // Ritardo introdotto prima di cambiare posizione
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // da 180 a 0 gradi
+    Servo1.write(pos);              // Modifica la posizione del servo
+    delay(15);                       // Ritardo introdotto prima di cambiare posizione
+  }
+}
 
-elenco numerato:
-1. Introduzca una lista de números.
-2. Calcule la suma de todos los números de la lista.
-3. Cuente los números de la lista.
 
-
-## codice
-
-Codice in linea `[2, 4, 6, 8, 20, 50, 70] `, vamos a calcular el promedio `suma = 160`.
-
-altrimenti su più linee
 ```
-suma = 160
-conteo = 7
-```
-## emphasi
-corsivo con *asterischi* o _underscores_.
 
-grassetto **asterisks** or __underscores__.
-
-anche combinato **asterisks and _underscores_**.
-
-sbarrato con le ondine ~~Scratch this.~~
-
-#per le immagini
-Inline-style: 
-![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
-
-## Video en YouTube
-
-- [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
-
-## Otros
-
-- [Media en Wikipedia](https://en.wikipedia.org/wiki/Mean)
-
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
