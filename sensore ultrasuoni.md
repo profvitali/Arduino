@@ -40,6 +40,4 @@ void loop() {
 ```
 
 ## Esercizi
-1. Scrivendo un numero a tastiera compreso tra 0 e 180 il servomotore si muove nella posizione indicata;
-2. Dividere lo spazio di movimento in 6 _spicchi_; scrivendo un numero a tastiera compreso tra 0 e 180 il servomotore si muove nella posizione indicata.
 
