@@ -16,7 +16,7 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
 3. Mechatronics projects
 
-   3.1 Servomotore
+   3.1 Servomotore [LINK QIU](https://github.com/profvitali/Arduino/blob/main/servomotore.md)
    
    3.2 Sensore di distanza ad ultrasuoni
    
