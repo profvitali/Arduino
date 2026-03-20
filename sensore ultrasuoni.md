@@ -1,7 +1,7 @@
 # Sensore ad ultrasuoni
+Questo programma permette di rilevare la distanza di un oggetto posto di fronte al sensore e scriverla sul monitor seriale.
 
 ```c
-// Programma per rilevare la distanza di un oggetto con sensore di prossimità ad ultrasuoni
 const int pinTrigger = 9;
 const int pinEcho    = 10;
  
