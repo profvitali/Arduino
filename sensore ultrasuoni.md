@@ -2,8 +2,8 @@
 Questo programma permette di rilevare la distanza di un oggetto posto di fronte al sensore e scriverla sul monitor seriale.
 
 ```c
-const int pinTrigger = 9;
-const int pinEcho    = 10;
+const int pinTrigger = 9;   //emettitore
+const int pinEcho    = 10;  //ricevitore
  
 void setup() {
   pinMode(pinTrigger, OUTPUT);
@@ -13,15 +13,12 @@ void setup() {
 }
  
 void loop() {
-  // imposta l'uscita del trigger LOW
-  digitalWrite(pinTrigger, LOW);
-  // imposta l'uscita del trigger HIGH per 10 microsecondi
-  digitalWrite(pinTrigger, HIGH);
+  digitalWrite(pinTrigger, LOW);  // imposta l'uscita del trigger LOW
+  digitalWrite(pinTrigger, HIGH);  // imposta l'uscita del trigger HIGH per 10 microsecondi
   delayMicroseconds(10);
   digitalWrite(pinTrigger, LOW);
  
-  // calcolo del tempo attraverso il pin di echo
-  long durata = pulseIn(pinEcho, HIGH);
+  long durata = pulseIn(pinEcho, HIGH);  // calcolo del tempo attraverso il pin di echo
   long distanza = durata/58.31;   //motivo di ciò spiegato sopra
  
   Serial.print("distanza: ");
@@ -34,10 +31,9 @@ void loop() {
     Serial.println(" cm");
   }
    
-  // Aspetta 1000 millisecondi prima di generare l'impulso successivo
-  delay(1000);
+  delay(1000);  // Aspetta 1000 millisecondi prima di generare l'impulso successivo
 }
 ```
 
-## Esercizi
+
 
