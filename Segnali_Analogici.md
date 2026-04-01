@@ -13,6 +13,7 @@
 
 In questo esercizio utilizzeremo il sensore per rilevare l'intensità luminosa della stanza e ne leggeremo il valore sul monitor.
 
+Come cablare un fotoresistore: [LINK QUI](https://www.tinkercad.com/things/4IvuqhHbc6P-crepuscolare)
 ```c
 int luminosita;  //Il valore letto dalla fotoresistenza
 void setup() {
