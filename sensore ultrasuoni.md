@@ -1,5 +1,12 @@
 # Sensore ad ultrasuoni
-Questo programma permette di rilevare la distanza di un oggetto posto di fronte al sensore e scriverla sul monitor seriale.
+
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/sens_ultrasuoni_1.jpg)
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/sens_ultrasuoni_2.jpg)
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/sens_ultrasuoni_3.jpg)
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/sens_ultrasuoni_4.jpg)
+
+
+## Questo programma permette di rilevare la distanza di un oggetto posto di fronte al sensore e scriverla sul monitor seriale.
 
 ```c
 const int pinTrigger = 9;   //emettitore
