@@ -14,12 +14,14 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
    
    2.2 comandare segnali analogici [LINK QUI](https://github.com/profvitali/Arduino/blob/main/Segnali_Analogici.md)
 
-3. 🚀Mechatronics projects
+3. 🚀**Mechatronics projects**
 
    3.1 Servomotore [LINK QUI](https://github.com/profvitali/Arduino/blob/main/servomotore.md)
 
    3.2 Sistema di sterzo servoalimentato per modellini di auto RC [LINK QUI](https://github.com/profvitali/Arduino/blob/main/servo_sterzo.md)
+
+   3.3 Pannello fotovoltaico auto-orientante per l'efficienza energetica. [LINK QUI](https://github.com/profvitali/Arduino/blob/main/fotovoltaico.md)
    
-   3.3 Sensore di distanza ad ultrasuoni [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20ultrasuoni.md)
+   3.4 Sensore di distanza ad ultrasuoni [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20ultrasuoni.md)
    
-   3.4 Sensore di parcheggio [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20di%20parcheggio.md)
+   3.5 Sensore di parcheggio [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20di%20parcheggio.md)
