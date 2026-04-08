@@ -18,7 +18,7 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
 
    3.1 Servomotore [LINK QUI](https://github.com/profvitali/Arduino/blob/main/servomotore.md)
 
-   3.2 Sistema di sterzo servoalimentato modellini di auto RC [LINK QUI](https://github.com/profvitali/Arduino/blob/main/servo_sterzo.md)
+   3.2 Sistema di sterzo servoalimentato per modellini di auto RC [LINK QUI](https://github.com/profvitali/Arduino/blob/main/servo_sterzo.md)
    
    3.3 Sensore di distanza ad ultrasuoni [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20ultrasuoni.md)
    
