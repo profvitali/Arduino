@@ -1,60 +1,29 @@
-# Segnali Analogici
+# POtenziometro
 
-> [!TIP]
-> Le istruzioni fondamentali per il comando di segnali digitali sono:
->```c
-> pinMode() // impostare un pin come input o come output, solitamente posto nel setup
-> analogRead()  // legge un pin analogico, usato per input
-> analogWrite()  //scrive in valore analogico, usato per output
-> ```
+Il Potenziometro è un componente attraverso il quale è possibile variare il valore di una resistenza interna attraverso una "manopola" e quindi la corrispondente tensione ai suoi capi. Esso è caratterizzato da tre pin, di cui due rispettivamente per la massa e la tensione di riferimento (es. 5 V) ed il terzo per l'uscita che va collegato all'Arduino.
 
+Supponiamo di voler realizzare un semplice programma attraverso il quale leggere il valore di tensione del potenziometro ed inviarla in tempo reale al nostro PC di sviluppo attraverso la porta seriale (utilizzando il cavo USB). Il cablaggio necessario al funzionamento è quello riportato nell'immagine di seguito:
 
-## INPUT - Utilizzo di un fotoresistore
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/potenziometro.png)
 
-In questo esercizio utilizzeremo il sensore per rilevare l'intensità luminosa della stanza e ne leggeremo il valore sul monitor.
+Il codice che permette il comprenderne il funzionamento è il seguente:
 
-Come cablare un fotoresistore: [LINK QUI](https://www.tinkercad.com/things/4IvuqhHbc6P-crepuscolare)
 ```c
-int luminosita;  //Il valore letto dalla fotoresistenza
-void setup() {
-  Serial.begin(9600);
+int potenziometroPin = 0;
+int value = 0;
+void setup()
+{
+	Serial.begin(9600); // inizializzazione porta seriale
 }
-void loop() {
-  luminosita = analogRead(A0);  //Lettura della luminosità
-  Serial.println(luminosita);  //permette di visualizzare il VALORE di luminosità rilevato
-  delay(10);                   //Aspetta 10 ms
+void loop()
+{
+	value = analogRead(potenziometroPin); // leggo valore potenziometro
+	Serial.println(value); // scrivo il valore sulla seriale come debugging
+	delay(500);
 }
 ```
 
-## OUTPUT - Luminosità variabile di un LED
-```c
-int ledPin = 9; // Pin PWM
+> [!NOTE]
+> I valori ottenuti in seguito alla conversione da analogico a digitale varino da 0 a 1023 al variare della posizione del potenziometro dal minimo (0V) al massimo (5V).
 
-void setup() {
-  pinMode(ledPin, OUTPUT);
-}
-
-void loop() {
-  // Aumenta luminosità
-  for (int i = 0; i <= 255; i++) {
-    analogWrite(ledPin, i);
-    delay(10); // Ritardo per l'effetto dissolvenza
-  }
-  // Diminuisce luminosità
-  for (int i = 255; i >= 0; i--) {
-    analogWrite(ledPin, i);
-    delay(10);
-  }
-}
-```
-
-### Crepuscolare:
-1. Realizzare l'algoritmo che mi permette di accendere in automatico una luce quando c'è buio. Si definisca, a piacimento, un valore di soglia al di sotto del quale la luce dovrà accendersi.
-2. Realizzare l'algoritmo di un "crepuscolare adattivo". Avendo a disposizione 4 LED regolare l'accensione di questi in rapporto alla luce. _e.g_ buio completo si accendono 4 LED, buio al 50% accendo 2 LED...
- 
-     Replicare l'algoritmo sostituendo il fotoresistore con un potenziometro.
-   
-5. Realizzare l'algoritmo di un "crepuscolare adattivo analogico". Si regoli l'intensità luminosa di un LED in relazione alla quantità luminosa della stanza.  _e.g_ buio completo LED 100%, buio al 50% LED acceso al 50%...
- 
-     Replicare l'algoritmo sostituendo il fotoresistore con un potenziometro.
 
