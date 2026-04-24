@@ -1,4 +1,4 @@
-# POtenziometro
+# Potenziometro
 
 Il Potenziometro è un componente attraverso il quale è possibile variare il valore di una resistenza interna attraverso una "manopola" e quindi la corrispondente tensione ai suoi capi. Esso è caratterizzato da tre pin, di cui due rispettivamente per la massa e la tensione di riferimento (es. 5 V) ed il terzo per l'uscita che va collegato all'Arduino.
 
