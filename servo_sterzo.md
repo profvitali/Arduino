@@ -9,3 +9,7 @@ Si realizzi, ricercando sul web le informazioni mancanti, il sistema di sterzo d
 > L'output generato dal joystick è di tipo analogico poichè l'inclinazione è data da due potenziometri posti perpendicolarmente.
 > Se lo utilizzassimo come digitale --> le ruote sterzano totalmente a destra o sinistra
 > Se lo utilizzassimo come analogico --> le ruote sterzano proporzionalemente a quanto inclino il joystick; a patto che programmiamo in modo altrettanto proporzionale il movimento del servo.
+
+
+## UPGRADE
+Implementare l'uso del motore cc per comandare il movimento della macchina
