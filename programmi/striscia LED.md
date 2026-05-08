@@ -1,69 +1,55 @@
-# Titolo principale
+# Striscia LED
 
-descrizione
+Comandare l'accensione ed il colore dei led che compongono una striscia 
 
-## Sottotitolo livello 1
+```c
+#include <Adafruit_NeoPixel.h>  //libreria Arduino che permette il controllo delle striesce LED
 
-Bla bla.
+#define PIN 2	 // pin al quale è collegata la striscia LED
 
-elenco puntato:
+#define NUMPIXELS 12 // quantità di LED presenti sulla striscia
 
-- punto 
-- punto
-- punto
+//comando che permette di controllare l'accensione ed il colore dei singoli LED
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-elenco numerato:
-1. Introduzca una lista de números.
-2. Calcule la suma de todos los números de la lista.
-3. Cuente los números de la lista.
+int pausa = 100; 
 
+int redColor = 0;
+int greenColor = 0;
+int blueColor = 0;
 
-## codice
+void setup() {
+  // "accendo" la libreria della striscia per utilizzarne i comandi
+  pixels.begin();
+}
 
-Codice in linea `[2, 4, 6, 8, 20, 50, 70] `, vamos a calcular el promedio `suma = 160`.
+void loop() {
+  setColor();
 
-altrimenti su più linee
+  for (int i=0; i < NUMPIXELS; i++) {		//accende in sequenza i LED
+    // imposta il colore del LED 
+    pixels.setPixelColor(i, pixels.Color(redColor, greenColor, blueColor));
+
+   // questo comando invia alla strisce il comando di accensione secondo i parametri impostati sopra
+    pixels.show();
+
+    delay(pausa);
+  }
+}
+
+// setColor()  imposta un colore randomico colorei dei LED
+// il colore dei LED RGB impiega il codice colore RGB con valori che variano tra 0 e 255
+void setColor(){
+  redColor = random(0, 255);
+  greenColor = random(0,255);
+  blueColor = random(0, 255);
+}
 ```
-suma = 160
-conteo = 7
-```
-## emphasi
-corsivo con *asterischi* o _underscores_.
 
-grassetto **asterisks** or __underscores__.
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/strisciaLED.png)
 
-anche combinato **asterisks and _underscores_**.
 
-sbarrato con le ondine ~~Scratch this.~~
+## Esercizi
+1. tramite un joystick controllare l'accensione di un LED. Il joystick "sposta" il led a destra o a sinistra
 
-#per le immagini
-Inline-style: 
-![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
-
-## Video en YouTube
-
-- [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
-
-## Otros
-
-- [Media en Wikipedia](https://en.wikipedia.org/wiki/Mean)
-
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
