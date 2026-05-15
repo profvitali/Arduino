@@ -50,6 +50,8 @@ void setColor(){
 
 
 ## Esercizi
-1. tramite un joystick controllare l'accensione di un LED. Il joystick "sposta" il led a destra o a sinistra
+1. tramite un joystick controllare l'accensione di un LED di colore verde. Il joystick "sposta" il led a destra o a sinistra.
+
+2. Volendo implementare l'esercizio sopra, fare in modo che il LED una voltaraggiunta l'estremità della striscia cambi colore e rimanga tale fino al raggiungimento di un'altra estremità.
 
 
