@@ -27,3 +27,5 @@ Questa repository GitHub è creata dal prof. Vitali Andrea dell'ITIS P. Paleocap
    3.5 Sensore di distanza ad ultrasuoni [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20ultrasuoni.md)
    
    3.6 Sensore di parcheggio [LINK QUI](https://github.com/profvitali/Arduino/blob/main/sensore%20di%20parcheggio.md)
+
+   3.7 Striscia LED [LINK QUI](https://github.com/profvitali/Arduino/blob/main/programmi/striscia%20LED.md)
