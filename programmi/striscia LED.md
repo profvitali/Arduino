@@ -9,7 +9,7 @@ Comandare l'accensione ed il colore dei led che compongono una striscia
 
 #define NUMPIXELS 12 // quantità di LED presenti sulla striscia
 
-//comando che permette di controllare l'accensione ed il colore dei singoli LED
+//istruzione che fornisce ad Arduino le caratteristiche della striscia LED
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 int pausa = 100; 
