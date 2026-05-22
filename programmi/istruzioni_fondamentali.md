@@ -24,7 +24,7 @@ Vediamo alcuni esempi:
 ```c
 const int numero_dita_mano = 5;      //int quando i numeri sono di tipo intero
 const float pigreco = 3.1415926;      //float usato quando il numero ha la virgola, ATENZIONE VA USATO IL PUNTO!!!
-#define pippo 8;
+#define pippo 8
 ```
 
 ***Variabili***
