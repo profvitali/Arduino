@@ -54,4 +54,7 @@ void setColor(){
 
 2. Volendo implementare l'esercizio sopra, fare in modo che il LED una voltaraggiunta l'estremità della striscia cambi colore e rimanga tale fino al raggiungimento di un'altra estremità.
 
+3. Si vuole realizzare la freccia dinamica per la svolta di un'automobile come quella presente nel video:  https://www.youtube.com/watch?v=oexERH38vPE
+   Si realizzi la soluzione che premendo un pulsante permette di accendere la striscia LED in sequenza come nel video.
+
 
