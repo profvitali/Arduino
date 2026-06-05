@@ -1,5 +1,7 @@
 # Relè
 
+## Istruzioni per il cablaggio del relè SPDT:
+![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/rel%C3%A8.png)
 
 
 ## Esercizi
