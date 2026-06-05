@@ -1,69 +1,10 @@
-# Titolo principale
-
-descrizione
-
-## Sottotitolo livello 1
-
-Bla bla.
-
-elenco puntato:
-
-- punto 
-- punto
-- punto
-
-elenco numerato:
-1. Introduzca una lista de números.
-2. Calcule la suma de todos los números de la lista.
-3. Cuente los números de la lista.
+# Relè
 
 
-## codice
 
-Codice in linea `[2, 4, 6, 8, 20, 50, 70] `, vamos a calcular el promedio `suma = 160`.
+## Esercizi
 
-altrimenti su più linee
-```
-suma = 160
-conteo = 7
-```
-## emphasi
-corsivo con *asterischi* o _underscores_.
-
-grassetto **asterisks** or __underscores__.
-
-anche combinato **asterisks and _underscores_**.
-
-sbarrato con le ondine ~~Scratch this.~~
-
-#per le immagini
-Inline-style: 
-![alt text](https://github.com/profvitali/Arduino/blob/main/immagini/prova.png)
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/profvitali/Arduino/blob/main/immagini/prova.png
-
-## Video en YouTube
-
-- [Media en Khan Academy](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/mean-median-and-mode)
-
-## Otros
-
-- [Media en Wikipedia](https://en.wikipedia.org/wiki/Mean)
-
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
+1. Creare un circuito con 2 LED, uno L1 acceso, uno L2 spento. Alla pressione di un pulsante P1 monostabile  L1 si deve spegnere, L2 si deve accendere
+2. Creare un circuito con 1 LED L1. Alla pressione di un pulsante P1 monostabile  L1 si deve accendere per 5 secondi e poi si deve spegnere. Si assumano ragionevolmente tutte le informazioni non precisate nel testo
+3. Creare un circuito con 1 LED L1. Alla pressione di un pulsante P1 monostabile  L1 si deve lampeggiare con intervalli accensione/spegnimento di 1 secondo. Si assumano ragionevolmente tutte le informazioni non precisate nel testo.
+4. La macchina del caffè ha un pulsante di accensione Pstart. Alla pressione di Pstart si deve accendere il led Lon e devono trascorrere 5 secondi per il riscaldamento, quando la macchina è in temperatura si accende il led Lready. Quando Lready è acceso è possibile preparare il caffè premendo il pulsante Pcoffee. La preparazione del caffè dura 3 secondi e il caffè è rappresentato da un led Lcoffee. A questo punto la macchina si deve nuovamente riscaldare. Dopo l'ultima azione da parte dell'utente, se trascorrono 25 secondi senza ulteriori azioni la macchina del caffè si spegne. Si assumano ragionevolmente tutte le informazioni non precisate nel testo
